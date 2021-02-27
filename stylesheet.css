@@ -1,0 +1,128 @@
+.navbar {
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 400%;
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .contentHome {
+    background-color: rgb(51, 51, 51);
+   
+    text-align: center;
+    color: white;
+    font-size : 15px;
+    font-family: sans-serif ;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    align : center;
+  }
+
+  .personalAbout {
+    width: 300px;
+    border: 10px solid black;
+    font-family:Verdana;
+    font-style: oblique;
+    font-weight: bold;
+ 
+    color :blue;
+    opacity: 65%;
+    padding: 50px;
+    margin: 20px;
+    float : left;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  25px 25px 43px #c1c1c1,
+             -25px -25px 43px #ffffff;
+  }
+
+  .personalAbout1 {
+    width: 300px;
+    border: 10px solid black;
+    font-family:Verdana;
+    font-style: oblique;
+    font-weight: bold;
+  
+    color :blue;
+    opacity: 65%;
+    padding: 70px;
+    margin: 20px;
+    float : right;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  25px 25px 43px #c1c1c1,
+             -25px -25px 43px #ffffff;
+  }
+
+ .contactDetails{
+   
+    font-size : 30px;
+    font-family : Arial;
+    text-align : center;
+    font-weight : bold;
+    
+ }
+
+ .education{
+    font-size : 25px;
+    font-family :Arial;
+    text-align : center;
+    color : white;
+    font-weight : bold;
+ }
+
+ .skills{
+    font-size : 25px;
+    font-family :Arial;
+    text-align : left;
+    color : black;
+    font-weight : bold;
+ }
+
+ .projects{
+    font-size : 25px;
+    font-family :Arial;
+    text-align : left;
+    color : black;
+    font-weight : bold;
+ }
+
+ .activities{
+
+    font-size : 25px;
+    font-family :Arial;
+    text-align : left;
+    color : black;
+    font-weight : bold;
+
+ }
